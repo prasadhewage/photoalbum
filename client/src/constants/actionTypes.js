@@ -1,0 +1,26 @@
+/**
+ * load uploaded photos
+ */
+export const LOAD_PHOTOS = "LOAD_PHOTOS";
+export const LOAD_PHOTOS_SUCCESS = "LOAD_PHOTOS_SUCCESS";
+export const LOAD_PHOTOS_FAIL = "LOAD_PHOTOS_FAIL";
+
+/**
+ * load user saved images
+ */
+export const LOAD_SAVED_PHOTOS = "LOAD_SAVED_PHOTOS";
+export const LOAD_SAVED_PHOTOS_SUCCESS = "LOAD_SAVED_PHOTOS_SUCCESS";
+export const LOAD_SAVED_PHOTOS_FAIL = "LOAD_SAVED_PHOTOS_FAIL";
+
+/**
+ * show/hide views
+ */
+export const TOGGLE_SELECTED_IMAGES_VIEW = "TOGGLE_SELECTED_IMAGES_VIEW";
+export const TOGGLE_UPLOADED_IMAGES_VIEW = "TOGGLE_UPLOADED_IMAGES_VIEW";
+
+/**
+ * save user selected images
+ */
+export const SAVE_SELECTED_PHOTO_LIST = "SAVE_SELECTED_PHOTO_LIST";
+export const SAVE_SELECTED_PHOTO_LIST_SUCCESS = "SAVE_SELECTED_PHOTO_LIST_SUCCESS";
+export const SAVE_SELECTED_PHOTO_LIST_FAIL = "SAVE_SELECTED_PHOTO_LIST_FAIL";

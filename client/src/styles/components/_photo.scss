@@ -1,0 +1,13 @@
+.photo-block{
+
+    img{
+        cursor: pointer;
+    }
+
+    &.active {
+        img{
+            border: 3px solid red;
+        }
+    }
+    
+}
